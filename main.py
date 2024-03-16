@@ -1,5 +1,6 @@
 name = input("What is your name?")
-print(len(name))
+length = len(name)
+print(length)
 
 
 # a = 10
