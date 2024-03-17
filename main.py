@@ -1,6 +1,13 @@
-name = input("What is your name?")
-length = len(name)
-print(length)
+# year_string = input("Enter number of years ")
+# year_integer = int(year_string)
+# weak_in_year = 52 * year_integer
+# weak_in_year_string = str(weak_in_year)
+# print("There are " + weak_in_year_string + " weeks in " + year_string + " years")
+
+
+# name = input("What is your name?")
+# length = len(name)
+# print(length)
 
 
 # a = 10
@@ -186,5 +193,47 @@ print(length)
 # input() function
 # name = input("Enter your name: ")
 # print("Hello, " + name + "!")
+
+
+# Example of a type error
+# x = "5"
+# y = 2
+# z = x + y  # This will raise a TypeError because you can't add a string and an integer directly
+# print(z)
+
+# Type conversion
+# Implicit type conversion
+# x = 5  # integer
+# y = 2.0  # float
+# z = x + y  # Python will implicitly convert x to a float and then perform the addition
+# print(z)
+
+
+# Explicit type conversion
+# x = "5"
+# y = 2
+# r = int(x) + y  # Explicitly converting x to an integer before performing addition
+# print(r)
+
+
+# Example of explicit type conversion
+# x = "5"
+# y = 2
+# s = int(x) + y  # This will convert x to an integer before adding it to y
+# print(s)
+
+# name = input("What is your name?\n")
+# length = len(name)
+# print(type(length))
+# newLength = str(length)
+# print(type(newLength))
+# print("Your name (" + name + ") has " + newLength + " characters.")
+
+# f-string
+name = "Alice"
+age = 30
+formatted_string = f"Hello, {name}! You are {age} years old."
+print(formatted_string)
+
 
 
